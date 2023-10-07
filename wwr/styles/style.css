@@ -1,0 +1,101 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#background {
+    height: 725px;
+    background-color: #fcfbfb;
+}
+
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.home-title {
+    color:black;
+}
+
+.logo,
+.icon {
+    width: 80px;
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+#hero-msg{
+    text-align: center;
+}
+
+nav a,
+.book,
+.join,
+footer a {
+    text-decoration: none;
+}
+
+nav a:hover,
+.book:hover,
+.join:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+#hero-box,
+.button-box,
+.River-cards,
+.camping-cards,
+.rapid-cards,
+.msg {
+    text-align: center;
+}
+.card-img{
+    
+    max-width: 450px;
+}
+footer{
+    background-color: rgba(20, 30, 13, 0.7);
+}
+.msg{
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+#background{
+    
+    background-color: rgba(187, 204, 176, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
