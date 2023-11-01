@@ -6,6 +6,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     justify-items: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
   
   
   }
@@ -40,6 +43,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     justify-items: center; */
+    justify-items: center;
+    align-items: center;
   }
   .red2 {
     width: 200px; 
@@ -281,3 +286,4 @@
     position: relative;
     z-index: 1;
   }
+  
