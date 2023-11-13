@@ -74,7 +74,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #556472;
+  background-color: #747a80;
 }
 .colors td{
   width: 25%;
@@ -172,4 +172,25 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.homepage-image {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 20px; 
+}
+.img {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 20px; 
+}
+
+.img {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 20px; 
+}
+.logo {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 20px; 
 }
