@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact us</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <link rel="stylesheet" href="style.css">
  
 </head>
 <body>
@@ -14,9 +19,9 @@
         </nav>
       </header>
   <main>
+    <h2 style="color: white;">Contact Us</h2>
     <img class="img" src="images/images005.jpg" alt="image for page3">
     <section class="contact-form">
-      <h2>Contact Form</h2>
       <form
  
 action="/contact"
@@ -56,10 +61,10 @@ type="submit">Send Message</button>
       </form>
     </section>
     <section class="contact-info">
-      <h3>Contact Information</h3>
-      <p>Phone: +1 (234) 9161101117</p>
-      <p>Email: temitayoajiboye4@gmail.com</p>
-      <p>Address: No.9 orita obele estate akure</p>
+      <h3 style="color:white;">Contact Information</h3>
+      <p style="color: white;">number: +1 (234) 9161101117 </p>
+      <p style="color: white;">Gmail: temitayoajiboye4@gmail.com</p>
+      <p style="color: white;">Address: No.9 orita obele estate akure</p>
     </section>
   </main>
   </main>
@@ -75,4 +80,22 @@ type="submit">Send Message</button>
         <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
 </div>
     </footer>
+    <script>
+      // get the feedback div element so we can do something with it.
+      const feedbackElement = document.getElementById('feedback');
+      // get the form so we can read what was entered in it.
+      const formElement = document.forms[0];
+      // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+      formElement.addEventListener('submit', function (e) {
+          // stop the form from doing the default action.
+          e.preventDefault();
+          // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+          feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
+          // make the feedback element visible.
+          feedbackElement.style.display = "block";
+          // add a class to move everything down so our message doesn't cover it.
+          document.body.classList.toggle('moveDown');
+      });
+  </script>
+  </html>
   
